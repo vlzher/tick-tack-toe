@@ -1,0 +1,18 @@
+@import "variables";
+.custom-input{
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Silkscreen', cursive;
+  background-color: rgba(0,0,0,0.9);
+  color: red;
+  outline: 6px solid black;
+  font-size: 2rem;
+  border-radius: 60px;
+  border:0;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.1);
+  transition: 0.1s;
+}
+.custom-input:focus{
+  outline: 4px solid $background-color;
+}

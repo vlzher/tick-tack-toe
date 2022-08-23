@@ -1,0 +1,11 @@
+.cell-container{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.body {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

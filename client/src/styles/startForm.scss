@@ -1,0 +1,45 @@
+@import "variables";
+.bottom-part{
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  overflow: visible;
+}
+.button-submit{
+  background-color: rgba(0,0,0,0.9);
+  color: gray;
+  margin-right: 20px;
+  border-radius: 5px;
+  width: 35%;
+  height: 100%;
+  border: 0;
+  outline: 4px solid black;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Silkscreen', cursive;
+  font-size: 32px;
+  transition: 0.5s;
+
+}
+.button-submit:hover{
+  outline: 4px solid $background-color;
+}
+
+.label-error{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: red;
+  width: 60%;
+  white-space: pre-line;
+  height: 100%;
+  padding-bottom: 5px;
+
+}

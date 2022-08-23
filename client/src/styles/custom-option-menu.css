@@ -1,0 +1,32 @@
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin: 30px;
+  height: 125px;
+  width: 125px;
+  outline: 5px solid black;
+}
+
+.cross {
+  background: url("../assets/crossSmaller.png ") no-repeat top left;
+}
+
+.nought {
+  background: url("../assets/noughtSmaller.png") no-repeat top left;
+}
+
+.button:hover {
+  transition: 0.2s;
+  outline: 5px solid red;
+}
+
+.button.active {
+  transition: 0s;
+  outline: 5px solid red;
+}
+
+/*# sourceMappingURL=custom-option-menu.css.map */
